@@ -3,6 +3,7 @@ sudo apt update
 sudo apt-get Install nginx
 mv default1 /etc/nginx/sites-available/default 
 cd etc/nginx/sites-available/default 
+mv default1 default
 sudo apt install git
 git clone https://github.com/RocketChat/Docker.Official.Image.git
       
